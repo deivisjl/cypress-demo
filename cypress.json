@@ -1,0 +1,7 @@
+{
+	"baseUrl": "https://corecode-qa-bootcamp-site.herokuapp.com/",
+	"username": "corecodeqa",
+	"password": "Corecode2022!",
+	"screenshotsFolder": "screenshots",
+	"video": false
+}

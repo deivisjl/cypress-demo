@@ -1,0 +1,35 @@
+{
+  "name": "cypress-tests",
+  "version": "1.0.0",
+  "description": "advanced-testing-with-cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open",
+    "cy:run": "cypress/node_modules/.bin/cypress run"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@bahmutov/print-env": "1.2.0",
+    "@faker-js/faker": "^6.3.1",
+    "colon-names": "1.0.0",
+    "cypress": "^9.5.2",
+    "cypress-multi-reporters": "^1.5.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-cypress": "^2.8.1",
+    "eslint-plugin-json-format": "2.0.1",
+    "eslint-plugin-mocha": "^10.0.3",
+    "https-proxy-agent": "^5.0.0",
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^6.0.1",
+    "yaml-lint": "1.2.4"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "request": "^2.88.2"
+  }
+}
